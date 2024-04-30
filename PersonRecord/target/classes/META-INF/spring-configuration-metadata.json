@@ -1,0 +1,37 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.personRecord.app.ApplicationProperties",
+      "name": "com.personrecord",
+      "type": "com.personRecord.app.ApplicationProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.personRecord.app.ApplicationProperties",
+      "name": "com.personrecord.database-host",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.personRecord.app.ApplicationProperties",
+      "name": "com.personrecord.database-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.personRecord.app.ApplicationProperties",
+      "name": "com.personrecord.database-password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.personRecord.app.ApplicationProperties",
+      "name": "com.personrecord.database-port",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.personRecord.app.ApplicationProperties",
+      "name": "com.personrecord.database-username",
+      "type": "java.lang.String"
+    }
+  ]
+}

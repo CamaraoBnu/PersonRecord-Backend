@@ -1,0 +1,5 @@
+com\personRecord\AppApplication.class
+com\personRecord\app\ApplicationConfig$1.class
+com\personRecord\app\ApplicationConfig.class
+com\personRecord\app\ApplicationProperties.class
+META-INF\spring-configuration-metadata.json
