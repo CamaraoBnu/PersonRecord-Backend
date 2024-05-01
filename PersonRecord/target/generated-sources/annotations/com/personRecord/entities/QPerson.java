@@ -37,6 +37,8 @@ public class QPerson extends EntityPathBase<Person> {
 
     public final StringPath state = createString("state");
 
+    public final StringPath street = createString("street");
+
     public QPerson(String variable) {
         super(Person.class, forVariable(variable));
     }

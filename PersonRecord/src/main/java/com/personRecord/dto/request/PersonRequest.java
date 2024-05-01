@@ -20,6 +20,8 @@ public class PersonRequest {
 
     private String cep;
 
+    private String street;
+
     private String number;
 
     private String comp;
@@ -36,6 +38,7 @@ public class PersonRequest {
                 .name(this.name)
                 .phone(this.phone)
                 .cep(this.cep)
+                .street(this.street)
                 .number(this.number)
                 .comp(this.comp)
                 .district(this.district)

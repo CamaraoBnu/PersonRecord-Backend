@@ -25,6 +25,9 @@ public class Person {
     @Column(name = "nr_cep", nullable = false)
     private String cep;
 
+    @Column(name = "ds_street", nullable = false)
+    private String street;
+
     @Column(name = "nr_number", nullable = false)
     private String number;
 
@@ -41,11 +44,12 @@ public class Person {
     private String state;
 
     @Builder
-    public Person(String cpf, String name, String phone, String cep, String number, String comp, String district, String city, String state) {
+    public Person(String cpf, String name, String phone, String cep, String street, String number, String comp, String district, String city, String state) {
         this.cpf = cpf;
         this.name = name;
         this.phone = phone;
         this.cep = cep;
+        this.street = street;
         this.number = number;
         this.comp = comp;
         this.district = district;
