@@ -32,8 +32,8 @@ public class PersonController {
     }
 
     @DeleteMapping(path = "/delete/{cpf}", produces = "application/json")
-    public void deletePersonByCPF(@RequestBody PersonRequest request, @PathVariable String cpf) {
-        this.personService.deletePersonByCPF(request, cpf);
+    public Person deletePersonByCPF(@PathVariable String cpf) {
+        return this.personService.deletePersonByCPF(cpf);
     }
 
     @GetMapping(path = "/get/{cpf}", produces = "application/json")

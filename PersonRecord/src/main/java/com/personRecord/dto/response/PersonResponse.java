@@ -18,6 +18,8 @@ public class PersonResponse {
 
     private String cep;
 
+    private String street;
+
     private String number;
 
     private String comp;
@@ -35,6 +37,7 @@ public class PersonResponse {
                 .name(person.getName())
                 .phone(person.getPhone())
                 .cep(person.getCep())
+                .street(person.getStreet())
                 .number(person.getNumber())
                 .comp(person.getComp())
                 .district(person.getDistrict())

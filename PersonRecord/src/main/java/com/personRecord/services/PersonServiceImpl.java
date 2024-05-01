@@ -31,10 +31,9 @@ public class PersonServiceImpl implements PersonService {
     }
 
     @Override
-    public PersonResponse deletePersonByCPF(PersonRequest request, String cpf) {
-        Person person = request.toEntity();
-        Person deletedPerson = this.personRepository.deletePersonByCPF(person, cpf);
-        return PersonResponse.fromEntity(deletedPerson);
+    public Person deletePersonByCPF(String cpf) {
+
+        return this.personRepository.deletePersonByCPF(cpf);
     }
 
     @Override

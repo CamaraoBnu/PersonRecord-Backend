@@ -47,8 +47,9 @@ public class PersonRepository {
     }
 
     @Transactional
-    public Person deletePersonByCPF(Person person, String cpf) {
+    public Person deletePersonByCPF(String cpf) {
        JPAQueryFactory  queryFactory = new JPAQueryFactory(entityManager);
+       Person person = getPersonByCPF(cpf);
        QPerson qPerson = QPerson.person;
        queryFactory.delete(qPerson)
                .where(qPerson.cpf.eq(cpf))

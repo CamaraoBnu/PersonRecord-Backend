@@ -76,8 +76,8 @@ public class ApplicationConfig {
             private static final long serialVersionUID = 1L;
 
             {
-                //setProperty("hibernate.hbm2ddl.auto", "create");
-                setProperty("hibernate.ddl.auto", "validate");
+                setProperty("hibernate.hbm2ddl.auto", "create");
+                //setProperty("hibernate.ddl.auto", "validate");
                 setProperty("hibernate.show_sql", "true");
                 setProperty("hibernate.dialect", "org.hibernate.dialect.PostgreSQLDialect");
             }

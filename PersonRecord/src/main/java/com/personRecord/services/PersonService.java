@@ -12,7 +12,7 @@ public interface PersonService {
 
     PersonResponse updatePersonByCPF(PersonRequest personRequest, String cpf);
 
-    PersonResponse deletePersonByCPF(PersonRequest personRequest, String cpf);
+    Person deletePersonByCPF(String cpf);
 
     Person getPersonByCPF(String cpf);
 
