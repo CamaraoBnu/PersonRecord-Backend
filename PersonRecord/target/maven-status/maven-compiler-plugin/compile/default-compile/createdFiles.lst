@@ -1,5 +1,15 @@
+com\personRecord\dto\response\PersonResponse$PersonResponseBuilder.class
+com\personRecord\entities\Person.class
 com\personRecord\AppApplication.class
+com\personRecord\entities\QPerson.class
+com\personRecord\controllers\PersonController.class
 com\personRecord\app\ApplicationConfig$1.class
-com\personRecord\app\ApplicationConfig.class
 com\personRecord\app\ApplicationProperties.class
 META-INF\spring-configuration-metadata.json
+com\personRecord\repositories\PersonRepository.class
+com\personRecord\services\PersonServiceImpl.class
+com\personRecord\dto\response\PersonResponse.class
+com\personRecord\dto\request\PersonRequest.class
+com\personRecord\services\PersonService.class
+com\personRecord\entities\Person$PersonBuilder.class
+com\personRecord\app\ApplicationConfig.class

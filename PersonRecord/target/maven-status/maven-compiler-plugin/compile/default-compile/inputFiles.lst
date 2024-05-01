@@ -1,4 +1,10 @@
-C:\Users\Artur\IdeaProjects\PersonRecord\src\main\java\com\personRecord\app\ApplicationProperties.java
-C:\Users\Artur\IdeaProjects\PersonRecord\src\main\java\com\personRecord\app\ApplicationConfig.java
-C:\Users\Artur\IdeaProjects\PersonRecord\src\main\java\com\personRecord\AppApplication.java
-C:\Users\Artur\IdeaProjects\PersonRecord\src\main\java\com\personRecord\entities\Person.java
+C:\Users\Artur\IdeaProjects\NEWPersonRecord\PersonRecord-Backend\PersonRecord\src\main\java\com\personRecord\dto\response\PersonResponse.java
+C:\Users\Artur\IdeaProjects\NEWPersonRecord\PersonRecord-Backend\PersonRecord\src\main\java\com\personRecord\services\PersonServiceImpl.java
+C:\Users\Artur\IdeaProjects\NEWPersonRecord\PersonRecord-Backend\PersonRecord\src\main\java\com\personRecord\services\PersonService.java
+C:\Users\Artur\IdeaProjects\NEWPersonRecord\PersonRecord-Backend\PersonRecord\src\main\java\com\personRecord\app\ApplicationConfig.java
+C:\Users\Artur\IdeaProjects\NEWPersonRecord\PersonRecord-Backend\PersonRecord\src\main\java\com\personRecord\AppApplication.java
+C:\Users\Artur\IdeaProjects\NEWPersonRecord\PersonRecord-Backend\PersonRecord\src\main\java\com\personRecord\dto\request\PersonRequest.java
+C:\Users\Artur\IdeaProjects\NEWPersonRecord\PersonRecord-Backend\PersonRecord\src\main\java\com\personRecord\repositories\PersonRepository.java
+C:\Users\Artur\IdeaProjects\NEWPersonRecord\PersonRecord-Backend\PersonRecord\src\main\java\com\personRecord\controllers\PersonController.java
+C:\Users\Artur\IdeaProjects\NEWPersonRecord\PersonRecord-Backend\PersonRecord\src\main\java\com\personRecord\entities\Person.java
+C:\Users\Artur\IdeaProjects\NEWPersonRecord\PersonRecord-Backend\PersonRecord\src\main\java\com\personRecord\app\ApplicationProperties.java

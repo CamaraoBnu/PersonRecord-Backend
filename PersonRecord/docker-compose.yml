@@ -12,17 +12,9 @@ services:
       - SPRING_PROFILES_ACTIVE=dev
     depends_on:
       - rabbitmq
+      - postgres
     networks:
       - mynetwork
-
-  frontend:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    ports:
-      - "3000:3000"
-    depends_on:
-      - backend
 
   rabbitmq:
     container_name: rabbitmq
@@ -33,6 +25,19 @@ services:
     environment:
       - RABBITMQ_DEFAULT_USER=gust
       - RABBITMQ_DEFAULT_PASS=guest
+    networks:
+      - mynetwork
+
+  postgres:
+    container_name: postgres
+    image: postgres:latest
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=1233
+      - POSTGRES_DB=postgres
     networks:
       - mynetwork
 
